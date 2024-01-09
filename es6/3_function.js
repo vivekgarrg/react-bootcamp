@@ -95,7 +95,9 @@
 // obj.fun1()
 // obj.fun2()
 
-console.log(regularFunction())
+
+var abc = "123";
+console.log(regularFunction)
 function regularFunction(){
     this.name = "vivek";
 }
@@ -104,3 +106,7 @@ function regularFunction(){
 // const arrowFunction = () =>{
 
 // }
+
+
+abc = "123";
+regularFunction = regularFunction;
